@@ -1,5 +1,7 @@
 package com.ww.springchche.controller;
 
+
+
 import com.ww.springchche.pojo.AuthUser;
 import com.ww.springchche.service.AuthUserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +39,7 @@ public class AuthUserController {
     /**
     * @Description: 获取所有用户
     * @Param: []
-    * @Return: java.util.List<com.ww.springchche.pojo.AuthUser>
+    * @Return: java.util.List<com.ww.com.ww.springchche.pojo.AuthUser>
     * @Exception
     * @Author: Sun
     * @Date: 2019-04-19 12:05
@@ -51,7 +53,7 @@ public class AuthUserController {
     /**
     * @Description: 获取单个用户
     * @Param: [id]
-    * @Return: com.ww.springchche.pojo.AuthUser
+    * @Return: com.ww.com.ww.springchche.pojo.AuthUser
     * @Exception
     * @Author: Sun
     * @Date: 2019-04-19 12:05
@@ -104,7 +106,7 @@ public class AuthUserController {
     /**
     * @Description: 根据用户账号查询
     * @Param: [account]
-    * @Return: com.ww.springchche.pojo.AuthUser
+    * @Return: com.ww.com.ww.springchche.pojo.AuthUser
     * @Exception
     * @Author: Sun
     * @Date: 2019-04-19 12:06
@@ -117,7 +119,7 @@ public class AuthUserController {
    /**
    * @Description: 根据用户账号和密码查询
    * @Param: [account, pwd]
-   * @Return: com.ww.springchche.pojo.AuthUser
+   * @Return: com.ww.com.ww.springchche.pojo.AuthUser
    * @Exception
    * @Author: Sun
    * @Date: 2019-04-19 12:06
@@ -131,7 +133,7 @@ public class AuthUserController {
     /**
     * @Description: 查询id大于多少的用户账号，JPA中通过pageable对象进行分页(分页时前台传递页数至后台，后台要进行计算size*page-1)
     * @Param: [id]
-    * @Return: java.util.List<com.ww.springchche.pojo.AuthUser>
+    * @Return: java.util.List<com.ww.com.ww.springchche.pojo.AuthUser>
     * @Exception
     * @Author: Sun
     * @Date: 2019-04-19 12:06
