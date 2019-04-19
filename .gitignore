@@ -1,10 +1,33 @@
 # Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
+.gitignore
 
-# IntelliJ project files
-.idea
+# Operating System Files 
+
+*.DS_Store 
+Thumbs.db 
+*.sw? 
+.#* 
+*# 
+*~ 
+*.sublime-* 
+
+# Build Artifacts 
+
+.gradle/
+build/
+target/
+bin/
+dependency-reduced-pom.xml 
+
+# Eclipse Project Files 
+
+.classpath
+.project
+.settings/ 
+
+# IntelliJ IDEA Files 
+
 *.iml
-out
-gen
-src/test/
+*.ipr 
+*.iws 
+*.idea 
