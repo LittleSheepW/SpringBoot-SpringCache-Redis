@@ -1,7 +1,7 @@
 # SpringBoot-SpringCache-Redis
 
 
-本项目使用使用SpringBoot2.13+JPA+SpringCache+Redis
+本项目使用使用SpringBoot2.13+JPA+SpringCache+Redis，主要目的是在SpringBoot项目中集成SpringCache+Redis。
 1、首先在Mysql中创建名称为sunshine数据库，当然也可以修改
 application.properties中spring.datasource.url连接地址为你自己的。
 2、保证Mysql和Redis服务处于启动状态，如果你的Redis有密码，
