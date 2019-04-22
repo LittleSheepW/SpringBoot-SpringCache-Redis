@@ -9,4 +9,4 @@ application.properties中spring.datasource.url连接地址为你自己的。
 3、点击CloudStudyApplication启动类启动项目，数据表会自动进行创建，不过数据需要自行添加。
 4、使用postman进行测试，restful风格url。
 
-如果你有更好的建议请联系我，QQ:951799399. 一起学习，一起成长。
+如果你有更好的建议请联系我。
